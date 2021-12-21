@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<html lang= "pt-br">
+<head> 
+<meta charset= "utf-8">
+<meta name= "discription" content= "Ola mundo do balaco">
+<link rel= "icon" href="go.png">
+</head>
+<title> Miczin do pó</title>
+<body>
+	<h1> Joaozinhooo tomaaaa</h1>
+	<h2> Joaozinhooo tomaaaa</h2>
+	<h3> Joaozinhooo tomaaaa</h3>
+	<h4> Joaozinhooo tomaaaa</h4>
+</body>
+</html>

@@ -1,0 +1,110 @@
+
+--<<<<<<<<HTML5>>>>>>>>--
+<H1></h1> -> Utilizado dentro do <body> para definir tamanho do texto.
+<hr> -> Adiciona uma linha horizontal, sem necessidade de fechar.
+<p></p> -> Adiciona parágrafo.
+<meta name = "description" content = ""> --> Descrição do site.
+<link rel= "icon" href= " " > --> Ícone do site.
+<!-- "Colocar comentário-->// comentário em HTML
+/* */ --> Comentário em CSS e Java
+//(Comentar apenas uma linha) & /* */(Comentar mais de uma linha) --> Comentar me Javascript
+
+
+Lista -->
+"A escrita que quer sobrepor"<sup>"O que será sobreposto"</sup>
+<html> &Delta </html> --> Adiciona o simbolo de delta
+<ul>-->Inicio da lista
+<li> Java web </li> --> Tópicos
+<li> Html e CSS</li>--> Tópicos
+<li> JavaScript</li>--> Tópicos
+</ul>--> Final da lista
+<section> </section>--> Criar seções.
+<footer> </footer>--> Criação de rodapés.
+<nav> </nav>-- Navegação
+<a hrf= "link"></a>-->Direciona a um link.
+<img src= " " alt="descrição da imagem" title= "descrição de texto na imgagem">
+<video src = " " width = "largura" height = "altura" controls> --> Adicionar video
+<a href=" " target= "_blank"> Nome </a> --> Fazer com que links sejam abertos em outra guia.
+<a href= "https:\"> </a>--> Fazer com que abra links externos
+
+--<<<<<<<<CSS3>>>>>>>>--
+<link rel= "stylesheet" type= "text/css" href= "style.css"> --> Linkar arquivo do CSS.
+font-family: "Nome da fonte"
+padding : "espaçamento entre imagens
+color: "Muda a cor da fonte"
+font-size = "Muda o tamanho da fonte em px"
+text-align: "center"; -->Centraliza
+font-weight:bold;--> Deixa o texto em negrito
+height: "Atura em px"
+nav ul {height:auto; padding: 8px 0px; margine: 0px;}-->Configura as margens, altura e tamanho da lista;
+nav li { display:inline;padding:20px; margin:0px;}-->Configura o layout do tópico; "display:inline"--> Coloca o tópico em horizontal;
+nav a{text-decoration: none;color:#FFFFFF;padding: 8px 8px 8px 8px;}-->Configura os textos com link;
+nav a:hover{background-color:#FFFFFF;color:#000000;}--> Configura a visualização ao rolar com o mouse por cima do texto-link;
+@media all end () {}-->Configuração de resolução da tela.
+@media all end(min-width:"Resolução máxima"){}--> Sistema condicional
+@media all end(max-width:"Resolução minima"){}--> Sistema condicional
+display: block; --> Transformar em colunas novamente;
+<strong></strong> --> deixar parte da string em negrito;
+<br/> -- Quebra de linhas
+margin : auto; --Centraliza div e section
+
+
+"SITE RESPONSIVO" --> Responsavel por auto ajustar em diversos dispositivos.
+
+
+
+
+
+
+
+
+--<<<<<<<<Java>>>>>>>>--
+Date data = new Date();
+  SimpleDateFormat formatar = new SimpleDateFormat("y");
+   String dataf = formatar.format(data);
+"Váriavel aqui".charAt(0) --> Posição letra na string;
+continue; --> Ele vai continuar, fazer a repetição e excluir o valor que seria por exemplo em uma repetição c<10
+if (c==2 || c==9){
+continue;-->Volta a repetição no laço for
+os valores 2 e 9 serão excluídos da repetição;
+break;--> Sai da estrutura encerrando os próximos códigos;
+DefaulListModel --- Lista
+for (inicio da repetição; condição de parada; e contagem da repetição){}
+int n[] = new int[4];--> new int[tamanho do seu vetor]
+n[0] = 3;
+n[1] = 4;... 
+int n[] = {1,3,4,5};--> Valores dos vetores já declarados
+Arrays.sort(nome da váriavel)-->Colocára em ordem os valores do vetor
+Arrays.binarySearch(nome da váriavel, e valor dentro da array)--Descobrir a posição do valor
+Arrays.fill(nome da variável, valor)--irá repetir o mesmo valor para todos os elementos do vetor;
+
+public, private, protect --> Torna um metódo publica privado ou protegido
+static -> torna um método estatico sem que precise transformá-lo em objeto para utilizalo
+void--> significa que o método não irá retornar um valor;
+
+
+
+
+
+
+
+
+
+
+
+
+
+--<<<<<<<<JavaScript>>>>>>>>--
++ -->Concatenção
+Number.parseInt(n);Number.parseFloat(n);Number(n)--> Converte independente se for float ou int;
+String(n);n.toString();--> Conversão de number for String;
+` string desejada ${variavel}` --> Template string
+//s.length--> quantos caractéres tem a string;
+//s.toUpperCase()--> colocar todas as letras da string para maísculo;
+//s.toLowerCase()--> colocar todas as letras da string para mínusculo;
+//document.write()--> Escreve no body da página;
+//n.toFixed(2)--> Casas decimaisn1.toFied
+//n.toFixed(2).replace('.' ,',')--> trocar . por ,;
+//n.toLocaleString('pt-BR', {style:'currency',currency : 'BRL'})-- localização de strings globais, serve para conversão da moeda;
+//window.alert("String")-->Mostrar caixa de texto
+//window.prompt("String")--> Mostra caizza

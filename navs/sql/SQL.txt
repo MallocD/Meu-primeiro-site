@@ -1,0 +1,12 @@
+SQL é a linguagem de conversação com o banco de dados <>
+PL-SQL-Oracle-
+
+
+<Grupo de Comandos>
+DLL(DataDefinitionLanguage)Ex:Create, Alter, Drop.
+DCL(DataControlLanguage)Ex:Grant, Revoke, Deny.
+DML(DataManipulationLanguage)Ex:Select, Insert, Update, Delete.
+
+
+É Composto posto por três coisas principais >>
+Arquivos + SGBG + Linguagem

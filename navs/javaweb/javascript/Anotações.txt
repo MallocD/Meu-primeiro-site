@@ -1,0 +1,2 @@
+document.querySelector('Titulo da escrita').innerText= "Novo texto"
+document.body.style.background= 'cor' --> Mudar cor do corpo do html

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+</head>
+<body>
+    <script type = "text/javascript">
+        let json = `[{
+
+"jogo": "R6",
+
+"ubisoft": {
+    "ano": "2015",
+    "players": 20000,
+    "plataforma": "PC"},
+"jogadores": [{
+    "nome": "Astro",
+    "idade": 28,
+    "titular": true,
+    "time" : ["bzk","fontt","faze"]},
+    {
+        "nome": "Muringa",
+        "idade": "22",
+        "titular": true,
+        "time": ["fontt", "faze"]
+    }
+]    
+
+
+}]`;
+    console.log(JSON.parse(json));
+    </script>
+    
+    
+</body>
+</html>
