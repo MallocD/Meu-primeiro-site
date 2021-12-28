@@ -1,0 +1,7 @@
+Para começar um código em JSON é utilizado -->
+[{ 
+Declarar strings com " " e : --> "nome":"João";,
+Declarar objeto --> "carro": { . , . , . },
+Declarar arraways--> "jogos" : [{ ]},
+}]
+Sempre será utilizado , ao invés do ;

@@ -4,3 +4,10 @@ header {text-align: center;}
 section{text-align: center;}
 footer{text-align: center;}
 img, video {max-width:100%}
+nav{font-family:Courier New;color:#FFFFFF;}
+	 nav ul {height:auto; padding: 8px 0px; margin: 0px;}
+	 nav a{text-decoration: none;color:#FFFFFF;padding: 8px 8px 8px 8px;}
+	 nav a:hover{background-color:#FFFFFF;color:#000000;}
+	 nav li { display:inline;padding:10px; margin:0px;}
+	 nav {background-color:#0899bd;height:40px;text-align: center;}
+	nav {border-radius: 20px;}
